@@ -25,18 +25,27 @@
     <div class="mylinks responsive" id="myTopnav">
       <ul class="myLinks">
         <li> <a href="index.html" class="first-btn btn layer">ZKINGMAN</a></li>
-        <li> <a href="index.html" class="btn layer">BLOG</a></li>
+        <div class="submenu-wrapper">
+          <li> <a href="index.html" class="btn layer">BLOG <i class="ri-arrow-down-circle-fill"></i></a>
+            <div class="dropdown-content">
+              <ul>
+                <li><a href="#"><i class="ri-arrow-left-circle-fill"></i> Item 1</a>
+                </li>
+                <li><a href="#"><i class="ri-arrow-left-circle-fill"></i> Item 2</a></li>
+              </ul>
+            </div>
+          </li>
+        </div>
         <li> <a href="index.html" class="btn layer">GALLERY</a></li>
         <li> <a href="about.html" class="btn layer">ABOUT</a></li>
         <li> <a href="contact.html" class="btn layer">CONTACT</a></li>
       </ul>
     </div>
-
   </nav>
 
   <div id="content">
     <div class="header-wrapper">
-      <img src="img/logo.png" alt="#">
+      <a href="#"> <img src="img/logo.png" alt="#"></a>
       <form action="" class="search-text">
         <input type="text" placeholder="Search Something...">
         <a href="#" class=""><i class="ri-search-line"></i></a>
