@@ -16,7 +16,6 @@ var swiper = new Swiper(".mySwiper", {
     },
   });
 
-
   function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "mylinks") {
